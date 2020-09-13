@@ -1,18 +1,15 @@
 {
   "name": "@flcoder/spa",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "build/index.js",
   "repository": "git@github.com:flcoder/spa.git",
   "author": "William Oney <flcoder@gmail.com>",
   "license": "MIT",
   "types": "build/index.d.ts",
   "devDependencies": {
-    "rollup-plugin-terser": "^7.0.2",
     "typescript": "^4.0.2"
   },
   "scripts": {
-    "build-all": "yarn build-web",
-    "build-web": "yarn build-cjs && rollup -c",
-    "build-cjs": "npx tsc"
+    "build": "npx tsc"
   }
 }
