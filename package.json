@@ -1,0 +1,8 @@
+{
+  "name": "@flcoder/spa",
+  "version": "1.0.1",
+  "main": "build/index.js",
+  "repository": "git@github.com:flcoder/spa.git",
+  "author": "William Oney <flcoder@gmail.com>",
+  "license": "MIT"
+}
