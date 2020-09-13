@@ -1,0 +1,16 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build",
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,           
+    "forceConsistentCasingInFileNames": true
+  }
+}
