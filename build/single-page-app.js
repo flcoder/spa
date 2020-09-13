@@ -1,8 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.SinglePageApp = void 0;
-const _1 = require("./");
-class SinglePageApp {
+import { NavigationError } from './lib';
+export class SinglePageApp {
     constructor() {
         const checkReadyState = () => {
             if (document.readyState === 'interactive')
@@ -28,8 +25,7 @@ class SinglePageApp {
         const page = slug ? pages[slug] || pages._404 : pages._home;
         if (page)
             return page.activate(slugs);
-        throw new _1.NavigationError(slugs);
+        throw new NavigationError(slugs);
     }
 }
-exports.SinglePageApp = SinglePageApp;
 //# sourceMappingURL=single-page-app.js.map

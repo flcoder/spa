@@ -1,4 +1,4 @@
-import { Page } from './';
+import { Page } from './lib';
 export declare class SinglePageApp {
     constructor();
     get pages(): Record<string, Page>;

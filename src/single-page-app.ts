@@ -1,7 +1,7 @@
 import {
   NavigationError,
   Page
-} from './'
+} from './lib'
 
 export class SinglePageApp {  
 
@@ -13,7 +13,7 @@ export class SinglePageApp {
     document.addEventListener('readystatechange', checkReadyState)
     checkReadyState()    
   }
-
+ 
   get pages() {
     return {} as Record<string, Page>
   }
